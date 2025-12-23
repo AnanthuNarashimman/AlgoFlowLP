@@ -1,11 +1,5 @@
 /* AlgoFlowLanding.module.css */
 
-/* Smooth Scrolling */
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 100px;
-}
-
 /* Scoped Variables */
 .container {
   --bg-dark: #0f1115;

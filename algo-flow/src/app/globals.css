@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
