@@ -6,6 +6,9 @@
 
 AlgoFlow is a web-based coding playground designed to make algorithmic problem-solving intuitive and fun. Combining a LeetCode-style code editor, an AI chatbot, and a unique flowchart tool, it helps you visualize, code, and debug algorithms like never before. Whether you're a student, interview prepper, or coding enthusiast, AlgoFlow is here to guide you through the logic maze!
 
+## Repository Structure
+This repository contains the **landing page and marketing website** for AlgoFlow, built with Next.js. The core application (code playground, AI chatbot, flowchart tool) is being developed separately as a **Vite + React application** and will be linked once ready.
+
 ## Part of the Idea Series
 This project is part of my **Idea Series**, a collection of repos where I turn creative sparks into reality. AlgoFlow is currently in the **idea phase**, meaning it’s a work-in-progress being built live. Follow along as I transform this vision into a fully functional tool—expect updates, experiments, and maybe a few "aha!" moments!
 
@@ -31,24 +34,50 @@ Unlike typical coding platforms, AlgoFlow emphasizes *visual thinking* and *guid
 - Dark mode and offline support for a smoother experience.
 
 ## Tech Stack
-- **Frontend**: React, Monaco Editor (code), React Flow (flowcharts)
+
+### Landing Page (This Repo)
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS
+- **Deployment**: Vercel
+
+### Core Application (Separate Vite + React Repo - In Development)
+- **Frontend**: React with Vite, Monaco Editor (code), React Flow (flowcharts)
 - **Backend**: Node.js/Express
 - **AI**: Hugging Face API or xAI Grok API (details TBD)
 - **Execution**: Judge0 API or WebAssembly for safe code running
 - **Deployment**: Vercel (free for live demo)
 
 ## Progress
-- [ ] Initialize project structure and React frontend
+
+### Landing Page (This Repo)
+- [x] Initialize Next.js project structure
+- [ ] Design homepage with hero section
+- [ ] Create features showcase section
+- [ ] Add waitlist/newsletter signup
+- [ ] Deploy landing page to Vercel
+
+### Core Application (Separate Repo)
+- [ ] Initialize Vite + React project structure
 - [ ] Set up Monaco Editor for code playground
 - [ ] Integrate AI chatbot with initial prompts
 - [ ] Build drag-and-drop flowchart interface
 - [ ] Enable code-to-flowchart and flowchart-to-code conversion
 - [ ] Deploy a live demo
 
-*Last updated: November 16, 2025*
+*Last updated: December 24, 2025*
 
 ## How to Run
-Coming soon as I build the MVP! For now, check out the code and join me on this journey.
+
+### Landing Page (This Repo)
+```bash
+cd algo-flow
+npm install
+npm run dev
+```
+Visit `http://localhost:3000` to view the landing page.
+
+### Core Application
+Coming soon! The core application is under active development in a separate repository.
 
 ## Why I’m Building This
 I love the challenge of algorithms and want to make them accessible to everyone. AlgoFlow is my chance to blend AI, visualization, and coding into a tool that’s both practical and a standout in my portfolio. As part of my Idea Series, this repo will evolve live—watch it grow from a spark to a fully functional app!
